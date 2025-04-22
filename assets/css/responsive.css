@@ -1,0 +1,232 @@
+@media (max-width: 1279px){
+    .contact-info a {
+        margin-right: 12px;
+    }
+}
+
+@media (max-width: 991px){
+
+    .button{
+        font-size: 14px;
+        line-height: 22px;
+        padding: 10px 20px;
+    }
+
+    .hidden-tab{
+        display: none;
+    }
+
+    .header-top .row > div {
+        flex: 2;
+    }
+
+    .header-top .row > div.col-md-3 {
+        flex: 1;
+    }
+
+    .header-logo a {
+        font-size: 20px;
+    }
+
+    .navigation ul li a{
+        padding: 5px;
+    }
+
+    .header-login a {
+        padding: 5px;
+    }
+
+    .banner-content .h1{
+        font-size: 36px;
+        margin: 0 0 10px;
+    }
+
+    .banner-content .button {
+        font-size: 16px;
+    }
+
+    .footer-subscribe {
+        flex: 1 0 0%;
+    }
+
+    .footer-link .input-group{
+        display: block;
+    }
+
+    .footer-link .form-control{
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    .footer-link .input-group-btn .btn {
+        border-radius: 4px !important;
+        line-height: 20px;
+        margin-top: 5px;
+    }
+
+    .univere-content {
+        font-size: 16px;
+    }
+
+    .univere-content h6 {
+         font-size: 14px;
+    }
+
+    .univere-content h2 {
+        color: #252B42;
+        line-height: 40px;
+    }
+
+    .universe-cta {
+        padding-top: 0;
+    }
+    
+}
+
+@media (max-width: 767px){
+    .header-top{
+        display: none;
+    }
+
+    .hidden-mobile {
+        display: none;
+    }
+
+    .visible-mobile {
+        display: block;
+    }
+
+    .header-main {
+        padding: 20px 10px;
+    }
+
+    .mobile-icons ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 15px;
+    }
+    
+    .mobile-icons ul img {
+        width: 16px;
+    }
+
+    .navigation ul {
+        display: block;
+        text-align: center;
+        padding: 15px; 
+    }
+    
+    .navigation ul li a {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    .navigation ul li {
+        margin: 0 0 10px;
+    }
+
+    .owl-carousel .owl-item img.cover-img {
+        opacity: 1;
+        visibility: visible;
+        display: block;
+        min-height: 400px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .banner-item {
+        background: transparent !important;
+        height: auto !important;
+    }
+
+    .banner-item .container {
+        max-width: 100%;
+    }
+
+    .banner-content { 
+        max-width: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        text-align: center;
+        width: 100%;
+    }
+
+    .banner-content .h1 {
+        font-size: 30px;
+    }
+
+    .footer-middle {
+        padding: 30px 20px;
+    }    
+
+    .footer-middle .col {
+        flex: 0 0 100%;
+        margin: 0 0 20px;
+    }
+    
+    .footer-link h6 {
+        margin: 0 0 10px;
+    }
+
+    .footer-link .input-group {
+        display: flex;
+    }
+
+    .footer-link .form-control {
+        width: auto;
+        border-radius: 4px;
+    }
+
+    .footer-link .input-group-btn .btn {
+        border-radius: 0 4px 4px 0!important;
+        line-height: 20px;
+        margin-top: 0;
+    }
+
+    .footer-copyright {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .intro-content{
+        padding: 0 80px;
+    }
+
+    .best-sellar-block {
+        padding: 20px;
+    }
+
+    .product-slider{
+        background: #23856D;
+        padding: 60px 0 0;
+    }
+    
+    .product-slider .banner-content {
+        position: relative;
+    }
+
+    .product-slider .owl-carousel .owl-item img.cover-img{
+        object-position: right;
+    }
+
+    .natural-universe-section .row {
+        flex-direction: column-reverse;
+    }
+
+    .univere-content {
+        font-size: 16px;
+        max-width: 100%;
+        padding: 50px 80px 20px;
+        text-align: center;
+    }
+
+}
